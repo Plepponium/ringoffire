@@ -2,17 +2,25 @@
     width: 300px;
     display: flex;
     align-items: center;
-    background-color: yellow;
+    background-color: #00dddd57;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     >span {
         font-size: 32px;
         margin-left: 16px;
+        color: #101414;
     }
     >img{
         width: 64px;
         height: 64px;
         object-fit: cover;
         border-radius: 100%;
+    }
+}
+
+.player-active {
+    background-color: #101414 !important;
+    >span{
+        color: #00dddd;
     }
 }
